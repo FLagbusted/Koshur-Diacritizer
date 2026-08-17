@@ -1,0 +1,12 @@
+# Verified compatible as of Aug 2026 - PEFT's LoRA API and Transformers'
+# Seq2SeqTrainer signature have both changed across versions in the past,
+# so these are pinned deliberately rather than left open-ended.
+torch>=2.3
+transformers>=4.42,<4.45
+peft>=0.11,<0.13
+accelerate>=0.30
+bitsandbytes>=0.43
+sentencepiece
+IndicTransToolkit
+huggingface_hub
+pandas

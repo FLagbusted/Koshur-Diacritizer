@@ -1,0 +1,11 @@
+kathe-env/
+kathe-train-env/
+__pycache__/
+*.pyc
+bpcc_kashmiri/
+comp_data/
+*.zip
+*.tar.xz
+
+# keep the final adapter, skip the intermediate per-epoch checkpoints
+kas-lora-adapter*/checkpoint-*/
